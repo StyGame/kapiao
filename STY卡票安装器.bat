@@ -1,43 +1,47 @@
 chcp 936
 cls
 @echo off
-title STY¿¨Æ±°²×°Æ÷
+title STYå¡ç¥¨å®‰è£…å™¨
 if  exist %SystemDrive%\Flags.txt (
 del /f /q %SystemDrive%\Flags.txt
 )
 cd /d "%~dp0"
 color B
 setlocal enabledelayedexpansion
-for /f "tokens=1,2,3,4,*" %%i in ('reg query "HKLM\SOFTWARE\WOW6432Node\Tencent\QQ·É³µ\Sys" ^| find /i "PathRoot"') do SET "GamePath=%%k"
+FOR /F "TOKENS=*" %%I IN ('reg query "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Tencent\QQé£žè½¦\Sys" /v "pathroot"') DO ( SET "GamePath=%%I" )
 if "%GamePath%" == "" (
-   echo Î´ÄÜÕÒµ½·É³µ°²×°Ä¿Â¼
+   echo æœªèƒ½æ‰¾åˆ°é£žè½¦å®‰è£…ç›®å½•
    goto stop
 )
+
+set GamePath=%GamePath:~18%
+for /f "tokens=*" %%i in ("%GamePath%") do SET GamePath=%%i
+
 :loop
-echo GamePathRoot£º%GamePath%
-echo 1.°²×°¿¨Æ±ÎÄ¼þ
-echo 2.Ð¶ÔØ¿¨Æ±ÎÄ¼þ
-echo 3.Ö±½ÓÍË³ö
-set /p op=ÊäÈë²Ù×÷Ñ¡Ïî:
+echo GamePathRootï¼š%GamePath%
+echo 1.å®‰è£…å¡ç¥¨æ–‡ä»¶
+echo 2.å¸è½½å¡ç¥¨æ–‡ä»¶
+echo 3.ç›´æŽ¥é€€å‡º
+set /p op=è¾“å…¥æ“ä½œé€‰é¡¹:
 if %op% equ 1 (
-   copy "%~dp0EventReport.dll" "%GamePath%\Releasephysx27\EventReport.dll"
-   echo °²×°¿¨Æ±Íê³É
+   copy "%~dp0EventReport.dll" "%GamePath:~20%\Releasephysx27\EventReport.dll"
+   echo å®‰è£…å¡ç¥¨å®Œæˆ
    goto stop
 )  else  (
    if %op% equ 2 (
 	   copy "%~dp0EventReport_original.dll" "%GamePath%\Releasephysx27\EventReport.dll"
-	   echo Ð¶ÔØ¿¨Æ±Íê³É
+	   echo å¸è½½å¡ç¥¨å®Œæˆ
 	   goto stop
    )  else  (
        if %op% equ 3 (
 	     goto stop
 	   )
 	   cls
-       echo ÊäÈë´íÎó
+       echo è¾“å…¥é”™è¯¯
 	   echo =================
 	   goto loop
    )
 )
 :stop
-echo °´ÈÎÒâ¼ü¹Ø±Õ
+echo æŒ‰ä»»æ„é”®å…³é—­
 pause>nul
