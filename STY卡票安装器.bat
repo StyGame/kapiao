@@ -8,7 +8,7 @@ del /f /q %SystemDrive%\Flags.txt
 cd /d "%~dp0"
 color B
 setlocal enabledelayedexpansion
-FOR /F "TOKENS=*" %%I IN ('reg query "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Tencent\QQ飞车\Sys" /v "pathroot"') DO ( SET "GamePath=%%I" )
+FOR /F "TOKENS=*" %%I IN ('reg query "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Tencent\QQ飞车\Sys" /v "PathRoot"') DO ( SET "GamePath=%%I" )
 if "%GamePath%" == "" (
    echo 未能找到飞车安装目录
    goto stop
@@ -24,7 +24,7 @@ echo 2.卸载卡票文件
 echo 3.直接退出
 set /p op=输入操作选项:
 if %op% equ 1 (
-   copy "%~dp0EventReport.dll" "%GamePath:~20%\Releasephysx27\EventReport.dll"
+   copy "%~dp0EventReport.dll" "%GamePath%\Releasephysx27\EventReport.dll"
    echo 安装卡票完成
    goto stop
 )  else  (
