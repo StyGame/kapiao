@@ -4,6 +4,8 @@
 
 打开项目网页，点击绿色按钮Code->HTTPS->Download ZIP即可下载最新版本
 
+也可以[点此下载最新版本](https://github.com/StyGame/kapiao/archive/refs/heads/main.zip)
+
 >文件使用说明：
 >
 >旧：进游戏Releasephysx27目录找到EventReport.dll保存备份并替换该dll 需要卸载时恢复原文件
