@@ -2,7 +2,7 @@
 
 项目工程更新地址：https://github.com/StyGame/kapiao  
 
-打开项目网页，点击绿色按钮Code->HTTPS->Download ZIP即可下载最新版本
+打开项目网页，点击绿色按钮Code->Download ZIP即可下载最新版本
 
 也可以[点此下载最新版本](https://github.com/StyGame/kapiao/archive/refs/heads/main.zip)
 
