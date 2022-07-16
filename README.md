@@ -6,6 +6,15 @@
 
 也可以[点此下载最新版本](https://github.com/StyGame/kapiao/archive/refs/heads/main.zip)
 
+其他链接：
+
+>[飞车历史文件与功能特征](https://github.com/StyGame/feiche_history_rubbish)
+
+>[飞车2006内测泄漏工程源码](https://github.com/StyGame/feiche_source)
+
+>[飞车卡票原作者VM分析工程](https://github.com/StyGame/kapiao_VM_Analyz)
+
+
 >文件使用说明：
 >
 >旧：进游戏Releasephysx27目录找到EventReport.dll保存备份并替换该dll 需要卸载时恢复原文件
