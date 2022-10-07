@@ -4,6 +4,9 @@
 
 [点此下载最后dll版本](https://github.com/StyGame/kapiao/archive/refs/tags/lastest.zip)
 
+[点此下载新的实验性exe感染版本](https://github.com/StyGame/kapiao/releases/download/exe_infect/exeInfectMode.zip)
+
+
 其他链接：
 
 >[飞车历史文件与功能特征](https://github.com/StyGame/feiche_history_rubbish)
