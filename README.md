@@ -2,7 +2,7 @@
 
 项目工程更新地址：https://github.com/StyGame/kapiao  
 
-[点此下载最后dll版本](https://github.com/StyGame/kapiao/files/9980977/2022.11.10_dll.zip)
+[点此下载最后dll版本](https://github.com/StyGame/kapiao/files/9981031/2022.11.10_dll.zip)
 
 [点此下载新的实验性exe感染版本](https://github.com/StyGame/kapiao/files/9980992/2022.10.11_exe.zip)
 
