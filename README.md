@@ -2,9 +2,9 @@
 
 项目工程更新地址：https://github.com/StyGame/kapiao  
 
-[点此下载最后dll版本](https://github.com/StyGame/kapiao/archive/refs/tags/lastest.zip)
+[点此下载最后dll版本](https://github.com/StyGame/kapiao/files/9980977/2022.11.10_dll.zip)
 
-[点此下载新的实验性exe感染版本](https://github.com/StyGame/kapiao/releases/download/exe_infect/exeInfectMode.zip)
+[点此下载新的实验性exe感染版本](https://github.com/StyGame/kapiao/files/9980992/2022.10.11_exe.zip)
 
 
 其他链接：
@@ -31,7 +31,9 @@ STY出品，必属精品
 ## 2022.11.10更新
 
 1.更新定位特征
+
 使用exe先卸载dll，使用dll先卸载exe 
+
 通常dll用于过租号器，dll有可能会被扫描特征封3天，exe不能用于租号器，但exe通常不会被扫到封3天
 
 
