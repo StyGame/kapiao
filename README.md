@@ -2,9 +2,7 @@
 
 项目工程更新地址：https://github.com/StyGame/kapiao  
 
-[点此下载最后dll版本](https://github.com/StyGame/kapiao/files/9981031/2022.11.10_dll.zip)
-
-[点此下载新的实验性exe感染版本](https://github.com/StyGame/kapiao/files/9980992/2022.10.11_exe.zip)
+[点此下载最后dll版本](https://github.com/StyGame/kapiao/files/11130660/2023.4.2.1.zip)
 
 
 其他链接：
@@ -28,6 +26,13 @@ STY出品，必属精品
 
 2022.6.14 介于飞车来的一批新的安全组人员各种操作计划搞死飞车 本项目计划开源 提升新进作者实力 让市面出现更多优秀作品
 ====
+## 2023.4.2更新
+
+1.更新定位特征
+
+2.更换文件
+
+
 ## 2022.11.10更新
 
 1.更新定位特征
