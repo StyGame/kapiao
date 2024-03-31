@@ -2,7 +2,7 @@
 
 项目工程更新地址：https://github.com/StyGame/kapiao    
 
-[点此下载最后dll版本](https://github.com/StyGame/kapiao/files/14813275/2024.3.31.x64.1.zip)
+[点此下载最后dll版本](https://github.com/StyGame/kapiao/files/14817122/2024.3.31.x64.1.zip)
 
 [加入TG群组](https://t.me/+IiMZZk8fh7c2YzQ9)
 
@@ -17,9 +17,9 @@
 
 >文件使用说明：
 >
->进游戏Releasephysx27目录，复制QUSEREX.dll到该目录 不需要时删除文件
+>32位版本进游戏Releasephysx27目录，复制QUSEREX.dll到该目录，启动32位飞车，不需要时删除文件
 >
->
+>64位版本进游戏Releasephysx27_64目录，复制dimap.dll到该目录，启动64位飞车，不需要时删除文件
 
 STY出品，必属精品
 ---------------------------------------
