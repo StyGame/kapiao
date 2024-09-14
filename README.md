@@ -2,7 +2,7 @@
 
 项目工程更新地址：https://github.com/StyGame/kapiao    
 
-[点此下载最后dll版本](https://github.com/StyGame/kapiao/releases/download/2024.7.21x64/2024.7.21.x64.1.zip)
+[点此下载最后dll版本](https://github.com/user-attachments/files/17002077/2024.9.14.x64.1.zip)
 
 [加入TG群组](https://t.me/+IiMZZk8fh7c2YzQ9)
 
@@ -27,6 +27,14 @@ STY出品，必属精品
 
 2022.6.14 鉴于飞车来的一批新的安全组人员各种操作计划搞死飞车 本项目计划开源 提升新进作者实力 让市面出现更多优秀作品
 ====
+## 2024.9.14更新
+
+1.特征更新
+
+## 2024.8.14更新
+
+1.验证失败不直接退，给出提示不重启游戏重连
+
 ## 2024.7.21更新
 
 1.特征更新
