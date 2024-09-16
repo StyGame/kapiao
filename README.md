@@ -2,7 +2,7 @@
 
 项目工程更新地址：https://github.com/StyGame/kapiao    
 
-[点此下载最后dll版本](https://github.com/user-attachments/files/17002077/2024.9.14.x64.1.zip)
+[点此下载最后dll版本](https://github.com/user-attachments/files/17011070/2024.9.16.x64.1.zip)
 
 [加入TG群组](https://t.me/+IiMZZk8fh7c2YzQ9)
 
