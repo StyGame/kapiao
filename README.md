@@ -29,7 +29,9 @@ STY出品，必属精品
 ====
 ## 2026.1.24更新
 
-1.抄[qiapiao代码](https://github.com/qiabug/qiapiao),hook malloc获取地址
+1.抄[qiapiao代码](https://github.com/qiabug/qiapiao),hook malloc获取地址。
+
+2.服务器试验验证部分已完成历史使命，验证失败不再提示不再拦截，仅在有更新时提示。
 
 ## 2026.1.20更新
 
