@@ -2,7 +2,7 @@
 
 项目工程更新地址：https://github.com/StyGame/kapiao    
 
-[点此下载最后dll版本](https://github.com/user-attachments/files/17666549/2024.11.8.x64.1.zip)
+[点此下载最后dll版本](https://github.com/user-attachments/files/25659004/2026.3.1.x64.1.zip)
 
 [加入TG群组](https://t.me/+IiMZZk8fh7c2YzQ9)
 
@@ -27,6 +27,10 @@ STY出品，必属精品
 
 2022.6.14 鉴于飞车来的一批新的安全组人员各种操作计划搞死飞车 本项目计划开源 提升新进作者实力 让市面出现更多优秀作品
 ====
+## 2026.3.1更新
+
+1.移除域名伪装，解决部分情况下cloudflare拒绝假host
+
 ## 2026.1.24更新
 
 1.抄[qiapiao代码](https://github.com/qiabug/qiapiao),hook malloc获取地址。
